@@ -1,0 +1,6 @@
+INFO  [2013-11-06 08:14:47,727] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:9002
+INFO  [2013-11-06 08:14:47,728] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8002
+INFO  [2013-11-06 08:14:47,730] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2013-11-06 08:14:47,730] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,file:/Users/nisheethjoshi/CmpE273-Project/cmpe273-assignment2/library/target/classes/}
+INFO  [2013-11-06 08:14:49,784] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,file:/Users/nisheethjoshi/CmpE273-Project/cmpe273-assignment2/library/target/classes/}
+INFO  [2013-11-06 08:14:49,784] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
