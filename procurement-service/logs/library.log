@@ -7,3 +7,46 @@ INFO  [2013-11-06 08:14:44,408] org.eclipse.jetty.server.handler.ContextHandler:
 INFO  [2013-11-06 08:14:44,510] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
 INFO  [2013-11-06 08:14:44,510] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
 INFO  [2013-11-06 08:14:45,015] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+INFO  [2013-11-06 17:01:29,518] org.reflections.Reflections: Reflections took 172 ms to scan 1 urls, producing 7 keys and 9 values 
+WARN  [2013-11-06 17:01:30,791] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2013-11-06 17:01:30,909] com.yammer.dropwizard.cli.ServerCommand: Starting procurement-service
+INFO  [2013-11-06 17:01:30,911] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2013-11-06 17:01:31,041] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2013-11-06 17:01:31,074] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /orders (edu.sjsu.cmpe.procurement.api.resources.ProcurementResource)
+
+INFO  [2013-11-06 17:01:31,074] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2013-11-06 17:01:31,362] org.quartz.impl.StdSchedulerFactory: Using default implementation for ThreadExecutor
+INFO  [2013-11-06 17:01:31,366] org.quartz.simpl.SimpleThreadPool: Job execution threads will use class loader of thread: main
+INFO  [2013-11-06 17:01:31,400] org.quartz.core.SchedulerSignalerImpl: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+INFO  [2013-11-06 17:01:31,401] org.quartz.core.QuartzScheduler: Quartz Scheduler v.2.2.0 created.
+INFO  [2013-11-06 17:01:31,415] org.quartz.simpl.RAMJobStore: RAMJobStore initialized.
+INFO  [2013-11-06 17:01:31,416] org.quartz.core.QuartzScheduler: Scheduler meta-data: Quartz Scheduler (v2.2.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+INFO  [2013-11-06 17:01:31,416] org.quartz.impl.StdSchedulerFactory: Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+INFO  [2013-11-06 17:01:31,416] org.quartz.impl.StdSchedulerFactory: Quartz scheduler version: 2.2.0
+INFO  [2013-11-06 17:01:31,417] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+INFO  [2013-11-06 17:01:31,472] de.spinscale.dropwizard.jobs.JobManager: Jobs to run on application start: []
+INFO  [2013-11-06 17:01:31,473] de.spinscale.dropwizard.jobs.JobManager: Jobs with @Every annotation: [class edu.sjsu.cmpe.procurement.ProcurementJob]
+INFO  [2013-11-06 17:01:31,499] de.spinscale.dropwizard.jobs.JobManager: Jobs with @On annotation: []
+INFO  [2013-11-06 17:01:31,627] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-11-06 17:01:31,637] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:9000
